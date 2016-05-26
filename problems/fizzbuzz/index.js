@@ -4,9 +4,10 @@ var rootRequire = require('root-require'),
 
 // Will use ES6 teamplate strings later on.
 exports.problem =
-	'Write a program that returns an array from 1..10 such that: \n\n' +
+	'Write a program that returns an array from 1..15 such that: \n\n' +
 
-	'Multiples of three are "Fizz" and multiples of five are "Buzz"\n\n' +
+	'Multiples of three are "Fizz" and multiples of five are "Buzz".\n\n' +
+	'Multiples of three and five are "Fizz Buzz."\n\n' +
 
 	'* Create a file `fizzbuzz.js`\n\n' +
 
@@ -16,7 +17,7 @@ exports.problem =
 
 exports.verify = function (args, cb) {
 	var proposed = require(cwd + '/' + args[0]),
-		expected = [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz'];
+		expected = [1, 2, 'Fizz', 4, 'Buzz', 'Fizz', 7, 8, 'Fizz', 'Buzz', 11, 'Fizz', 13, 14, 'Fizz Buzz'];
 
 	check({
 		proposed: proposed,
