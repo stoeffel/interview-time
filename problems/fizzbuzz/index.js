@@ -7,7 +7,7 @@ exports.problem =
 	'Write a program that returns an array from 1..15 such that: \n\n' +
 
 	'Multiples of three are "Fizz" and multiples of five are "Buzz".\n\n' +
-	'Multiples of three and five are "Fizz Buzz."\n\n' +
+	'Multiples of three and five are "Fizz Buzz".\n\n' +
 
 	'* Create a file `fizzbuzz.js`\n\n' +
 
